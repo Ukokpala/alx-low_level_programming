@@ -6,8 +6,8 @@
  */
 int main(void)
 {
-int n;
-for (n = 48; n < 58; n++)
+int n = 122;
+while (n > 96)
 {
 putchar(n);
 n -= 1;
