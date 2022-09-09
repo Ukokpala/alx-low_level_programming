@@ -1,16 +1,15 @@
 #include <stdio.h>
 /**
- * main - program that prints the alphabet in lowercase, followed by a new line*
- * You can only use the putchar
- *Return: 0
+* main - prints the alphabet in lowercase,
+ * followed by a new line
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
-int l = 'a';
-while (l <= 'z')
+char ch;
+for (ch = 'a'; ch <= 'z'; ch++)
 {
-putchar(l);
-l += 1;
+putchar(ch);
 }
 putchar('\n');
 return (0);
